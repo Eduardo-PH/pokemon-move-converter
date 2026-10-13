@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Move Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <h1>Pokémon Move Converter</h1>
+        <p>Converta movimentos Pokémon para JSON do Roll20.</p>
+
+        <label for="moveInput">Descrição do movimento</label>
+        <textarea
+            id="moveInput"
+            placeholder="Cole aqui o nome e a descrição do movimento..."
+            rows="8"
+        ></textarea>
+
+        <button id="convertButton">Converter movimento</button>
+
+        <p id="status">Verificando conexão com o servidor...</p>
+
+        <h2>Resultado JSON</h2>
+        <pre id="jsonOutput">O resultado aparecerá aqui.</pre>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
